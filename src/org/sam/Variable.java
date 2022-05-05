@@ -2,6 +2,7 @@ package org.sam;
 
 public class Variable {
 	 int a=10;
+	 int c=100;
 	private void var()
 	{
 		int a=120;
@@ -19,7 +20,7 @@ public class Variable {
 		System.out.println(c.a);
 		Variable c1=new Variable();
 		c1.var();
-		System.out.println(c1.a);
+		System.out.println(c1.c);
 	}
 
 }
